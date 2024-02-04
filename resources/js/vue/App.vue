@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     buscar() {
-      axios.post('https://dennis1.mindsoftdev.com/api/rep', {
+      axios.post('https://sea-turtle-app-55xxu.ondigitalocean.app/api/rep', {
         fecha_inicio: this.startDate,
         fecha_fin: this.endDate
       })
