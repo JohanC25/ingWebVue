@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import 'resources/js/bootstrap.js';
+import '../bootstrap';
 
 const app = createApp(App)
 
