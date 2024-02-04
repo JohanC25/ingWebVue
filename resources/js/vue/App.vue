@@ -50,6 +50,9 @@
         </tbody>
       </table>
     </div>
+    <div class="form-group">
+      <button @click="goHome">Volver a Inicio <i class="fa fa-home"></i></button>
+    </div>
   </div>
 </template>
   
@@ -86,7 +89,10 @@ export default {
         .catch(error => {
           console.error('Error:', error);
         });
-    }
+    },
+    goHome() {
+      window.location.href = '/home';
+    },
   },
   computed: {
   }

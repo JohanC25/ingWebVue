@@ -37,7 +37,7 @@ Route::get('/reportes/pdf', [ReporteController::class, 'downloadPdf'])->name('re
 Route::prefix('vue')->group(function () {
     Route::get('/', function () {
         return view('vue');
-    })->name('vue.index');
+    })->name('vue');
 
     Route::post('/getRecords', [ReporteController::class, 'getRecords'])->name('vue.getRecords');
 });
