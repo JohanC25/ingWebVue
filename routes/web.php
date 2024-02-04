@@ -31,7 +31,8 @@ Route::group(['prefix' => 'reporte'], function () {
     Route::get('/', [ReporteController::class, 'index'])->name('reportes.index');
     Route::get('/search', [ReporteController::class, 'search'])->name('reportes.search');
     Route::get('/downloadpdf', [ReporteController::class, 'downloadPdf'])->name('reportes.pdf');
-    Route::get('/vueReport', [ReporteController::class, 'getRecords'])->name('reportes.vue');
+    Route::get('/vueReport', [ReporteController::class, 'vueView'])->name('reportes.vue');
 });
+
 
 

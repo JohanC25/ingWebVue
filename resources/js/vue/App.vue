@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     buscar() {
-      axios.post('/vue/getRecords', {
+      axios.post('https://dennis1.mindsoftdev.com/api/rep', {
         fecha_inicio: this.startDate,
         fecha_fin: this.endDate
       })
