@@ -40,3 +40,8 @@ Aplicado en la gestión de la base de datos y operaciones críticas, el patrón 
 ## Conclusión
 
 La implementación de estas tecnologías y prácticas no solo ha enriquecido la funcionalidad y la interfaz de usuario del sistema sino que también ha establecido una base sólida para el crecimiento continuo y la adaptabilidad a las necesidades futuras del negocio.
+
+
+CLAVES DE ACCESO:
+Correo: johanSuperAdmin@hotmail.com
+Password: johan12345
