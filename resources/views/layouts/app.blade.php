@@ -20,7 +20,7 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js',])
 </head>
 <body>
-    <div id="app">
+    <div >
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -53,10 +53,10 @@
                             @endif
                         @else
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('vue') }}">Vue Report</a>
+                                <a class="nav-link" href="{{ route('reportes.vue') }}">Vue Report</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('reportes') }}">{{ __('Reporte') }}</a>
+                                <a class="nav-link" href="{{ route('reportes.index') }}">{{ __('Reporte') }}</a>
                             </li>
                             @canany(['create-role', 'edit-role', 'delete-role'])
                                 <li><a class="nav-link" href="{{ route('roles.index') }}">Manage Roles</a></li>
