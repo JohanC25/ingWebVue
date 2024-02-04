@@ -8,6 +8,6 @@
 </head>
 <body>
     <div id="app"></div>
-    @vite(['resources/js/vue/main.js', 'resources/sass/app.scss' ])
+    @vite('resources/js/vue/main.js')
 </body>
 </html>
