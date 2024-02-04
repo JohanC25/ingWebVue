@@ -53,6 +53,9 @@
                             @endif
                         @else
                             <li class="nav-item">
+                                <a class="nav-link" href="{{ route('vue') }}">Vue Report</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="{{ route('reportes') }}">{{ __('Reporte') }}</a>
                             </li>
                             @canany(['create-role', 'edit-role', 'delete-role'])

@@ -17,6 +17,7 @@
     "dependencies": {
         "element-plus": "^2.5.5",
         "vue": "^3.4.15",
-        "vue-loader": "^17.4.2"
+        "vue-loader": "^17.4.2",
+        "vue-resource": "^1.5.3"
     }
 }

@@ -30,6 +30,14 @@ Route::get('/reportes/search', [ReporteController::class, 'search'])->name('repo
 
 Route::get('/reportes/pdf', [ReporteController::class, 'downloadPdf'])->name('reportes.pdf');
 
-Route::get('/vue', function(){
+/*Route::get('/vue', function(){
     return view('vue');
+})->name('vue');*/
+
+Route::prefix('vue')->group(function () {
+    Route::get('/', function () {
+        return view('vue');
+    })->name('vue.index');
+
+    Route::post('/getRecords', [ReporteController::class, 'getRecords'])->name('vue.getRecords');
 });
